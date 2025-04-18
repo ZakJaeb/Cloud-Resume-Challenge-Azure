@@ -8,10 +8,10 @@ This project is my completed version of the **Cloud Resume Challenge**, a hands-
 
 ## 🔧 Tech Stack
 
-- **Frontend**: HTML/CSS static resume site (Azure Static Web App)
+- **Frontend**: HTML/CSS static resume site (Azure Storage Static Site)
 - **Backend**: Azure Functions (Python) + Cosmos DB (Table API)
 - **CI/CD**: GitHub Actions
-- **Infra as Code**: ARM templates
+- **Infrastructure as Code**: ARM templates
 - **Testing**: Cypress smoke tests
 - **Security**: DNSSEC, HTTPS enforced via Cloudflare
 
