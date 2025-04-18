@@ -34,7 +34,7 @@ Over five days, I built and deployed a full-stack cloud project from scratch:
    - Integrated API with frontend using JavaScript
 
 3. **Days 3–5 – CI/CD, IaC, and Testing**
-   - Restructured into mono-repo: `frontend/`, `backend/`, `infra/`, `cypress/`
+   - Restructured into mono-repo: `frontend/`, `backend/`, `iac/`, `cypress/`
    - Wrote ARM templates to deploy Function App and Cosmos DB
    - Created GitHub Actions workflows:
      - Deploy infrastructure (ARM)
@@ -61,7 +61,7 @@ cloud-resume-challenge/
 │
 ├── frontend/            # Static HTML/CSS resume site
 ├── backend/             # Azure Functions (Python)
-├── infra/               # ARM templates for deployment
+├── iac/               # ARM templates for deployment
 ├── cypress/             # Cypress smoke tests
 └── .github/workflows/   # GitHub Actions workflows
 ```
@@ -76,17 +76,11 @@ cloud-resume-challenge/
 
 ## 🔐 Note
 
-This repo is currently private due to Cosmos DB credentials. A sanitized public version with dummy config values and full documentation is in the works!
+This repo is currently private due to Cosmos DB credentials.
 
 ---
 
 ## 🙏 Thanks
 
 Big thanks to [Forrest Brazeal](https://forrestbrazeal.com) for designing the challenge and to the cloud community for sharing their builds and insights.
-
----
-
-## 📣 Want to Connect?
-
-If you're building this or something similar, reach out!  
-👉 [zakjaeb.com](https://zakjaeb.com) | [LinkedIn](https://linkedin.com/in/zakjaeb) | [YouTube](https://youtube.com/@zakjaeb)
+https://cloudresumechallenge.dev/docs/the-challenge/azure/
