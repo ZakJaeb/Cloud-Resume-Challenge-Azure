@@ -68,9 +68,9 @@ cloud-resume-challenge/
 
 ---
 
-## 📸 Screenshots
+## 🎥 Video Walkthrough
 
-*Coming soon — CI/CD pipeline diagrams and DNS flow visuals.*
+[I Took On The Cloud Resume Challenge | Microsoft Azure Edition](https://youtu.be/e6jPeHFuSLM)
 
 ---
 
